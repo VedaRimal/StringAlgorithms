@@ -7,6 +7,7 @@ public class StringAlgorithms {
      */
     public static String printCharacters(String word) {
         // TODO: Implement this method
+        
         return "";
     }
 
@@ -18,6 +19,13 @@ public class StringAlgorithms {
      */
     public static String reverseWord(String word) {
         // TODO: Implement this method
+        String word = "Hello";
+        String wordReversed = "";
+        String letterNum;
+        
+        for(int num = 0; num< num.length(); num++) {
+            
+        }
         return "";
     }
 
