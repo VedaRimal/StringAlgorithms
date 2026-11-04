@@ -27,7 +27,7 @@ public class StringAlgorithms {
         String letterNum;
         
         for(int i = 0; i < s.length(); i++) {
-            letterNum = word.substring(i, i + 1);
+            letterNum = word.substring(i, i + 1) + "\n";
             wordReversed = letterNum + wordReversed;
         }
         return wordReversed;
