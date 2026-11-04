@@ -6,9 +6,12 @@ public class StringAlgorithms {
      * a String where each character is placed on its own line.
      */
     public static String printCharacters(String word) {
+        String returnString = "";
         // TODO: Implement this method
-        
-        return "";
+         for (int i = 0; i <= word.length() - 1; i++) {
+            returnString += word.substring(i, i+1) + "\n";
+         }
+        return returnString;
     }
 
 
@@ -19,14 +22,15 @@ public class StringAlgorithms {
      */
     public static String reverseWord(String word) {
         // TODO: Implement this method
-        String word = "Hello";
+        String s = "Hello";
         String wordReversed = "";
         String letterNum;
         
-        for(int num = 0; num< num.length(); num++) {
-            
+        for(int i = 0; i < s.length(); i++) {
+            letterNum = word.substring(i, i + 1);
+            wordReversed = letterNum + wordReversed;
         }
-        return "";
+        return wordReversed;
     }
 
 
@@ -78,7 +82,7 @@ public class StringAlgorithms {
 
         System.out.println("\nTesting reverseWord:");
         // Example:
-        // System.out.println(reverseWord("hello"));
+         System.out.println(reverseWord("hello"));
 
         System.out.println("\nTesting capitalizeString:");
         // Example:
