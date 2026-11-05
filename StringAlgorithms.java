@@ -22,12 +22,12 @@ public class StringAlgorithms {
      */
     public static String reverseWord(String word) {
         // TODO: Implement this method
-        String s = "";
+        String s = "Hello";
         String wordReversed = "";
         String letterNum;
-        
+
         for(int i = 0; i < s.length(); i++) {
-            letterNum = word.substring(i, i + 1) + "\n";
+            letterNum = word.substring(i, i + 1);
             wordReversed = letterNum + wordReversed;
         }
         return wordReversed;
