@@ -22,7 +22,7 @@ public class StringAlgorithms {
      */
     public static String reverseWord(String word) {
         // TODO: Implement this method
-        String s = "Hello";
+        String s = "";
         String wordReversed = "";
         String letterNum;
         
